@@ -1,0 +1,42 @@
+Project Report: Analysis of U.S. Births (1994–2003)
+* Project Overview
+This project entails a comprehensive exploratory data analysis (EDA) of United States birth records spanning a ten-year period from 1994 to 2003. The primary objective was to identify temporal trends and patterns in birth frequencies across years, months, and days of the week.
+* Problem Statement
+The analysis was designed to address the following core business/research questions:
+* Which year records the highest and the lowest number of births?
+* In which month do people give birth the most?
+* On which day of the week do births occur most frequently?
+
+* Data Source
+The dataset used for this analysis is a secondary, real-world dataset sourced from GitHub, intended for case study analysis. 
+Format: Microsoft Excel (.xlsx)
+Volume: 3,653 rows
+Dimensions: 5 columns
+* Tools & Technologies
+The analysis was conducted entirely within the Microsoft Excel environment, utilizing:
+Excel: For data cleaning and preprocessing.
+Pivot Tables: For data aggregation and summarization.
+Pivot Charts: For dynamic data visualization.
+* Methodology
+Data Cleaning and Preprocessing
+Before analysis, the raw dataset underwent a cleaning process in Excel to ensure data quality and uniformity:
+Data Type Standardization: The numerical data fields were evaluated and converted from decimal format to whole numbers (integers) to ensure uniformity and accuracy, as birth counts cannot be fractional.
+* Data Analysis and Visualization
+Following the cleaning phase, the dataset was loaded into Excel Pivot Tables. The data was then aggregated across different temporal dimensions (Year, Month, and Day of the Week) to answer the problem statement. Pivot Charts were generated from these tables to provide a visual representation of the trends and facilitate easier interpretation of the findings.
+* Key Findings & Observations 
+
+The temporal analysis reveals significant volatility in annual birth rates across the decade. The period began with an upward trend, culminating in the dataset's lowest recorded volume in 1997. The chart was followed by a sustained three-year resurgence, peaking in 2000. Interestingly, the subsequent decline was short-lived; the dataset concludes with a sharp upward trajectory, reaching its absolute peak in 2003. This indicates that while the late 90s experienced a dip in births, the early 2000s marked a period of significant demographic growth.
+
+
+The monthly distribution of births reveals a distinct seasonal pattern, with August emerging as the peak month for childbirths and February recording the lowest volume. Rather than a uniform trend, the data exhibits a cyclical, oscillating pattern characterized by alternating monthly surges and contractions (e.g., increases in January and March followed by declines in February and April). This consistent fluctuation suggests that birth rates are influenced by recurring seasonal factors rather than steady, linear growth throughout the year.
+
+
+For the first 28 days of the month, the line is relatively flat. The number of births stays consistently between roughly 1,200,000 and 1,300,000 per day. There are small dips and peaks, but the overall volume is stable. The line begins to drop slightly, falling to roughly 1,200,000 by day 29. By day 30 the line continues to drop (down to roughly 1,100,000) and a sudden dramatic and sudden plunge occurs on day 30 which ends at approximately 750,000 births. This could be because the 31st occurs 7 times in a year.
+
+
+The day-of-the-week analysis reveals a highly pronounced weekly cycle in childbirth frequency. The data begins with a Sunday decline, followed by a sharp surge on Monday, which registers as the absolute peak for the week. From this apex, birth volumes decline progressively through the remaining days, ultimately reaching their lowest point on Saturday. This steep Monday spike and gradual weekend drop-off strongly suggests that the timing of childbirths is heavily influenced by scheduled medical interventions rather than occurring purely at random.
+
+Conclusion
+This project successfully utilized Excel's Pivot Table and Pivot Chart functionalities to transform a raw dataset of over 3,600 records into actionable insights. The analysis provides a clear view of temporal birth patterns in the U.S. over a decade, demonstrating the effectiveness of Excel as a tool for foundational data analysis and visualization.
+The analysis has shown that 2003 has the highest number of childbirths while 1997 is year of the least. Among the months, August has the highest while February has the least. Monday has the highest frequency with Saturday being the least. This ana
+
